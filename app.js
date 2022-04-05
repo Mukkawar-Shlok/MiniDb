@@ -8,7 +8,7 @@ const port = 3000;
 const app = express()
 
 //connecting to database
-const dbURL = "mongodb+srv://Shlok_M:Shlok69@cluster0.gkqoe.mongodb.net/node?retryWrites=true&w=majority";
+const dbURL = "mongodb+srv://@cluster0.gkqoe.mongodb.net/node?retryWrites=true&w=majority";
 app.use(express.urlencoded({ extended: true }));
 
 mongoose.connect(dbURL)
